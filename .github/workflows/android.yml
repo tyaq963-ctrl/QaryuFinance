@@ -16,8 +16,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o QaryuFinance.zip -d project
-
+          unzip -o QaryuFinance-main.zip -d project
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
